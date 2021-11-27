@@ -1,2 +1,7 @@
-# collection
-nfshibes nft collection
+# nfshibes
+
+official nft collection
+
+[nfshibes.com](http://nfshibes.com)
+
+
