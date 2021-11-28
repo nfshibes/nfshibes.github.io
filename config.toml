@@ -1,16 +1,205 @@
 baseURL = 'http://nfshibes.com/'
 languageCode = 'en-us'
 title = 'nfshibes'
-theme = 'LoveIt'
 
-[author]
-	name = "nfshibes"
+theme = 'LoveIt'
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+enableGitInfo = false
+enableEmoji = false
 
 [languages]
 	[languages.en]
-		[languages.en.params]
-			[languages.en.params.home]
-				subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+    weight = 1
+    languageCode = "en"
+    languageName = "English"
+    hasCJKLanguage = false
+    paginate = 12
+    googleAnalytics = ""
+    copyright = ""
+    [languages.en.menu]
+#      [[languages.en.menu.main]]
+#        identifier = "posts"
+#        # you can add extra information before the name (HTML format is supported), such as icons
+#        pre = ""
+#        # you can add extra information after the name (HTML format is supported), such as icons
+#        post = ""
+#        name = "Posts"
+#        url = "/posts/"
+#        # title will be shown when you hover on this menu link.
+#        title = ""
+#        weight = 1
+#      [[languages.en.menu.main]]
+#        identifier = "tags"
+#        pre = ""
+#        post = ""
+#        name = "Tags"
+#        url = "/tags/"
+#        title = ""
+#        weight = 2
+#      [[languages.en.menu.main]]
+#        identifier = "categories"
+#        pre = ""
+#        post = ""
+#        name = "Categories"
+#        url = "/categories/"
+#        title = ""
+#        weight = 3
+#      [[languages.en.menu.main]]
+#        identifier = "documentation"
+#        pre = ""
+#        post = ""
+#        name = "Docs"
+#        url = "/categories/documentation/"
+#        title = ""
+#        weight = 4
+#      [[languages.en.menu.main]]
+#        identifier = "about"
+#        pre = ""
+#        post = ""
+#        name = "About"
+#        url = "/about/"
+#        title = ""
+#        weight = 5
+#      [[languages.en.menu.main]]
+#        identifier = "github"
+#        pre = "<i class='fab fa-github fa-fw'></i>"
+#        post = ""
+#        name = ""
+#        url = "https://github.com/nfshibes/LoveIt"
+#        title = "GitHub"
+#        weight = 6
+    [languages.en.params]
+      # site description
+      description = "official nft collection"
+      # site keywords
+      keywords = ["nfshibes", "nft", "blockchain", "shiba", "inu"]
+      # App icon config
+      [languages.en.params.app]
+        # optional site title override for the app when added to an iOS home screen or Android launcher
+        title = "LoveIt"
+        # whether to omit favicon resource links
+        noFavicon = true
+        # modern SVG favicon to use in place of older style .png and .ico files
+        svgFavicon = ""
+        # Android browser theme color
+        themeColor = "#ffffff"
+        # Safari mask icon color
+        iconColor = "#5bbad5"
+        # Windows v8-10 tile color
+        tileColor = "#da532c"
+      # Search config
+      [languages.en.params.search]
+        enable = false
+        # type of search engine ("lunr", "algolia")
+        type = "algolia"
+        # max index length of the chunked content
+        contentLength = 4000
+        # placeholder of the search bar
+        placeholder = ""
+        # max number of results length
+        maxResultLength = 10
+        # snippet length of the result
+        snippetLength = 30
+        # HTML tag name of the highlight part in results
+        highlightTag = "em"
+        # whether to use the absolute URL based on the baseURL in search index
+        absoluteURL = false
+        [languages.en.params.search.algolia]
+          index = "index.en"
+          appID = "PASDMWALPK"
+          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+      # Home page config
+      [languages.en.params.home]
+        # amount of RSS pages
+        rss = 10
+        # Home page profile
+        [languages.en.params.home.profile]
+          enable = true
+          # Gravatar Email for preferred avatar in home page
+          gravatarEmail = ""
+          # URL of avatar shown in home page
+          avatarURL = ""
+          # title shown in home page (HTML format is supported)
+          title = ""
+          # subtitle shown in home page
+          subtitle = "official nft collection @ art basel miami"
+          # whether to use typeit animation for subtitle
+          typeit = true
+          # whether to show social links
+          social = true
+          # disclaimer (HTML format is supported)
+          disclaimer = ""
+        # Home page posts
+        [languages.en.params.home.posts]
+          enable = false
+          # special amount of posts in each home posts page
+          paginate = 6
+      # Social config in home page
+      [languages.en.params.social]
+        GitHub = "nfshibes"
+        Linkedin = "nfshibes"
+        Twitter = "nfshibes"
+        Instagram = "nfshibes"
+        Facebook = ""
+        Telegram = ""
+        Medium = ""
+        Gitlab = ""
+        Youtubelegacy = ""
+        Youtubecustom = ""
+        Youtubechannel = ""
+        Tumblr = ""
+        Quora = ""
+        Keybase = ""
+        Pinterest = ""
+        Reddit = ""
+        Codepen = ""
+        FreeCodeCamp = ""
+        Bitbucket = ""
+        Stackoverflow = ""
+        Weibo = ""
+        Odnoklassniki = ""
+        VK = ""
+        Flickr = ""
+        Xing = ""
+        Snapchat = ""
+        Soundcloud = ""
+        Spotify = ""
+        Bandcamp = ""
+        Paypal = ""
+        Fivehundredpx = ""
+        Mix = ""
+        Goodreads = ""
+        Lastfm = ""
+        Foursquare = ""
+        Hackernews = ""
+        Kickstarter = ""
+        Patreon = ""
+        Steam = ""
+        Twitch = ""
+        Strava = ""
+        Skype = ""
+        Whatsapp = ""
+        Zhihu = ""
+        Douban = ""
+        Angellist = ""
+        Slidershare = ""
+        Jsfiddle = ""
+        Deviantart = ""
+        Behance = ""
+        Dribbble = ""
+        Wordpress = ""
+        Vine = ""
+        Googlescholar = ""
+        Researchgate = ""
+        Thingiverse = ""
+        Devto = ""
+        Gitea = ""
+        XMPP = ""
+        Matrix = ""
+        Bilibili = ""
+        Email = "nfshibes@gmail.com"
+        RSS = true
 
 [params]
 	version = '0.2.X'
@@ -22,3 +211,62 @@ theme = 'LoveIt'
 	copyright = true
 	since = 2021
 	icp = false
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+[author]
+  name = "nfshibes"
+  email = "nfshibes@gmail.com"
+  link = "https://nfshibes.com"
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[Permalinks]
+  posts = ":filename"
+
+[privacy]
+  [privacy.googleAnalytics]
+    # ...
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
+
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
