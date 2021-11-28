@@ -1,0 +1,11 @@
+# Build and Release Directories
+bin/
+bin-debug/
+bin-release/
+
+# Hugo
+public/
+
+
+# IDE
+.idea

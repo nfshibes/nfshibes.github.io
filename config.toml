@@ -1,3 +1,24 @@
 baseURL = 'http://nfshibes.com/'
 languageCode = 'en-us'
 title = 'nfshibes'
+theme = 'LoveIt'
+
+[author]
+	name = "nfshibes"
+
+[languages]
+	[languages.en]
+		[languages.en.params]
+			[languages.en.params.home]
+				subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+
+[params]
+	version = '0.2.X'
+	author = 'nfshibes'
+	[params.footer]
+	hugo = false
+	author = true
+	license = false
+	copyright = true
+	since = 2021
+	icp = false
