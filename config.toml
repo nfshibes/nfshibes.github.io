@@ -343,7 +343,7 @@ enableEmoji = false
           # 主页显示头像的 URL
           avatarURL = ""
           # 主页显示的网站标题 (支持 HTML 格式)
-          title = "nfshibes"
+          title = ""
           # 主页显示的网站副标题
           subtitle = "官方 nft 收藏@迈阿密巴塞尔艺术展"
           # 是否为副标题显示打字机动画
