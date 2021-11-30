@@ -424,14 +424,210 @@ enableEmoji = false
         Email = "nfshibes@gmail.com"
         RSS = true
 
-  [languages.fr]
+  [languages.ja]
     weight = 3
+    # language code
+    languageCode = "ja"
+    # language name
+    languageName = "日本"
+    # whether to include Chinese/Japanese/Korean
+    hasCJKLanguage = true
+    # default amount of posts in each pages
+    paginate = 12
+    # [UA-XXXXXXXX-X] google analytics code
+    googleAnalytics = ""
+    # copyright description used only for seo schema
+    copyright = ""
+    # Menu config
+    [languages.ja.menu]
+#      [[languages.ja.menu.main]]
+#        identifier = "posts"
+#        pre = ""
+#        post = ""
+#        name = "Postes"
+#        url = "/posts/"
+#        title = ""
+#        weight = 1
+#      [[languages.ja.menu.main]]
+#        identifier = "tags"
+#        pre = ""
+#        post = ""
+#        name = "Balises"
+#        url = "/tags/"
+#        title = ""
+#        weight = 2
+#      [[languages.ja.menu.main]]
+#        identifier = "categories"
+#        pre = ""
+#        post = ""
+#        name = "Catégories"
+#        url = "/categories/"
+#        title = ""
+#        weight = 3
+#      [[languages.ja.menu.main]]
+#        identifier = "documentation"
+#        pre = ""
+#        post = ""
+#        name = "Docs"
+#        url = "/categories/documentation/"
+#        title = ""
+#        weight = 4
+#      [[languages.ja.menu.main]]
+#        identifier = "about"
+#        pre = ""
+#        name = "À propos"
+#        url = "/about/"
+#        title = ""
+#        weight = 5
+#      [[languages.ja.menu.main]]
+#        identifier = "github"
+#        pre = "<i class='fab fa-github fa-fw'></i>"
+#        post = ""
+#        name = ""
+#        url = "https://github.com/dillonzq/LoveIt"
+#        title = "GitHub"
+#        weight = 6
+    [languages.ja.params]
+      # site description
+      description = "公式nftコレクション"
+      # site keywords
+      keywords = ["nfshibes", "nft", "犬", "柴", "犬"]
+      # App icon config
+      [languages.ja.params.app]
+        # optional site title override for the app when added to an iOS home screen or Android launcher
+        title = "nfshibes"
+        # whether to omit favicon resource links
+        noFavicon = true
+        # modern SVG favicon to use in place of older style .png and .ico files
+        svgFavicon = ""
+        # Android browser theme color
+        themeColor = "#ffffff"
+        # Safari mask icon color
+        iconColor = "#5bbad5"
+        # Windows v8-10 tile color
+        tileColor = "#da532c"
+      # Search config
+      [languages.ja.params.search]
+        enable = false
+        # type of search engine ("lunr", "algolia")
+        type = "algolia"
+        # max index length of the chunked content
+        contentLength = 4000
+        # placeholder of the search bar
+        placeholder = ""
+        # max number of results length
+        maxResultLength = 10
+        # snippet length of the result
+        snippetLength = 30
+        # HTML tag name of the highlight part in results
+        highlightTag = "em"
+        # whether to use the absolute URL based on the baseURL in search index
+        absoluteURL = false
+        [languages.ja.params.search.algolia]
+          index = "index.ja"
+          appID = "PASDMWALPK"
+          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+      # Home page config
+      [languages.ja.params.home]
+        # amount of RSS pages
+        rss = 10
+        # Home page profile
+        [languages.ja.params.home.profile]
+          enable = true
+          # Gravatar Email for preferred avatar in home page
+          gravatarEmail = ""
+          # URL of avatar shown in home page
+          avatarURL = ""
+          # title shown in home page (HTML format is supported)
+          title = ""
+          # subtitle shown in home page
+          subtitle = "公式nftコレクション@アートバーゼルマイアミ"
+          # whether to use typeit animation for subtitle
+          typeit = true
+          # whether to show social links
+          social = true
+          # disclaimer (HTML format is supported)
+          disclaimer = ""
+        # Home page posts
+        [languages.ja.params.home.posts]
+          enable = false
+          # special amount of posts in each home posts page
+          paginate = 6
+      # Social config in home page
+      [languages.ja.params.social]
+        GitHub = "nfshibes"
+        Linkedin = "nfshibes"
+        Twitter = "nfshibes"
+        Instagram = "nfshibes"
+        Facebook = ""
+        Telegram = "nfshibes"
+        Medium = "nfshibes"
+        Gitlab = ""
+        Youtubelegacy = ""
+        Youtubecustom = ""
+        Youtubechannel = ""
+        Tumblr = ""
+        Quora = "nfshibes"
+        Keybase = ""
+        Pinterest = ""
+        Reddit = "nfshibes"
+        Codepen = ""
+        FreeCodeCamp = ""
+        Bitbucket = ""
+        Stackoverflow = "nfshibes"
+        Weibo = ""
+        Odnoklassniki = ""
+        VK = ""
+        Flickr = ""
+        Xing = ""
+        Snapchat = ""
+        Soundcloud = ""
+        Spotify = ""
+        Bandcamp = ""
+        Paypal = ""
+        Fivehundredpx = ""
+        Mix = ""
+        Goodreads = ""
+        Lastfm = ""
+        Foursquare = ""
+        Hackernews = ""
+        Kickstarter = ""
+        Patreon = ""
+        Steam = ""
+        Twitch = ""
+        Strava = ""
+        Skype = ""
+        Whatsapp = ""
+        Zhihu = ""
+        Douban = ""
+        Angellist = ""
+        Slidershare = ""
+        Jsfiddle = ""
+        Deviantart = ""
+        Behance = ""
+        Dribbble = ""
+        Wordpress = ""
+        Vine = ""
+        Googlescholar = ""
+        Researchgate = ""
+        Mastodon = ""
+        Thingiverse = ""
+        Devto = ""
+        Gitea = ""
+        XMPP = ""
+        Matrix = ""
+        Bilibili = ""
+        Email = "nfshibes@gmail.com"
+        RSS = true
+
+  [languages.fr]
+    weight = 4
     # language code
     languageCode = "fr"
     # language name
     languageName = "Français"
     # whether to include Chinese/Japanese/Korean
-    hasCJKLanguage = false
+    hasCJKLanguage = true
     # default amount of posts in each pages
     paginate = 12
     # [UA-XXXXXXXX-X] google analytics code
