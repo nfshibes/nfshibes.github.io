@@ -226,212 +226,14 @@ enableEmoji = false
 #          id = "@xxxx"
 #          prefix = "https://mastodon.technology/"
 
-  [languages.zh-cn]
+  [languages.es]
     weight = 2
-    # 网站语言, 仅在这里 CN 大写
-    languageCode = "zh-CN"
-    # 语言名称
-    languageName = "简体中文"
-    # 是否包括中日韩文字
-    hasCJKLanguage = true
-    # 默认每页列表显示的文章数目
-    paginate = 12
-    # [UA-XXXXXXXX-X] 谷歌分析代号
-    googleAnalytics = ""
-    # 版权描述，仅仅用于 SEO
-    copyright = ""
-    # 菜单配置
-    [languages.zh-cn.menu]
-#      [[languages.zh-cn.menu.main]]
-#        identifier = "posts"
-#        # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-#        pre = ""
-#        # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
-#        post = ""
-#        name = "所有文章"
-#        url = "/posts/"
-#        title = ""
-#        weight = 1
-#      [[languages.zh-cn.menu.main]]
-#        identifier = "tags"
-#        pre = ""
-#        post = ""
-#        name = "标签"
-#        url = "/tags/"
-#        title = ""
-#        weight = 2
-#      [[languages.zh-cn.menu.main]]
-#        identifier = "categories"
-#        pre = ""
-#        post = ""
-#        name = "分类"
-#        url = "/categories/"
-#        title = ""
-#        weight = 3
-#      [[languages.zh-cn.menu.main]]
-#        identifier = "documentation"
-#        pre = ""
-#        name = "文档"
-#        url = "/categories/documentation/"
-#        title = ""
-#        weight = 4
-#      [[languages.zh-cn.menu.main]]
-#        identifier = "about"
-#        pre = ""
-#        post = ""
-#        name = "关于"
-#        url = "/about/"
-#        title = ""
-#        weight = 5
-#      [[languages.zh-cn.menu.main]]
-#        identifier = "github"
-#        pre = "<i class='fab fa-github fa-fw'></i>"
-#        post = ""
-#        name = ""
-#        url = "https://github.com/dillonzq/LoveIt"
-#        title = "GitHub"
-#        weight = 6
-    [languages.zh-cn.params]
-      # 网站描述
-      description = "官方 nft 收藏"
-      # 网站关键词
-      keywords = ["nfshibes", "nft", "区块链", "柴", "犬"]
-      # 应用图标配置
-      [languages.zh-cn.params.app]
-        # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-        title = "nfshibes"
-        # 是否隐藏网站图标资源链接
-        noFavicon = true
-        # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
-        svgFavicon = ""
-        # Android 浏览器主题色
-        themeColor = "#ffffff"
-        # Safari 图标颜色
-        iconColor = "#5bbad5"
-        # Windows v8-10 磁贴颜色
-        tileColor = "#da532c"
-      # 搜索配置
-      [languages.zh-cn.params.search]
-        enable = false
-        # 搜索引擎的类型 ("lunr", "algolia")
-        type = "algolia"
-        # 文章内容最长索引长度
-        contentLength = 4000
-        # 搜索框的占位提示语
-        placeholder = ""
-        # 最大结果数目
-        maxResultLength = 10
-        # 结果内容片段长度
-        snippetLength = 50
-        # 搜索结果中高亮部分的 HTML 标签
-        highlightTag = "em"
-        # 是否在搜索索引中使用基于 baseURL 的绝对路径
-        absoluteURL = false
-        [languages.zh-cn.params.search.algolia]
-          index = "index.zh-cn"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
-      # 主页信息设置
-      [languages.zh-cn.params.home]
-        # RSS 文章数目
-        rss = 10
-        # 主页个人信息
-        [languages.zh-cn.params.home.profile]
-          enable = true
-          # Gravatar 邮箱，用于优先在主页显示的头像
-          gravatarEmail = ""
-          # 主页显示头像的 URL
-          avatarURL = ""
-          # 主页显示的网站标题 (支持 HTML 格式)
-          title = ""
-          # 主页显示的网站副标题
-          subtitle = "官方 nft 收藏@迈阿密巴塞尔艺术展"
-          # 是否为副标题显示打字机动画
-          typeit = true
-          # 是否显示社交账号
-          social = true
-          # 免责声明 (支持 HTML 格式)
-          disclaimer = ""
-        # 主页文章列表
-        [languages.zh-cn.params.home.posts]
-          enable = false
-          # 主页每页显示文章数量
-          paginate = 6
-      # 主页的社交信息设置
-      [languages.zh-cn.params.social]
-        GitHub = "nfshibes"
-        Linkedin = "nfshibes"
-        Twitter = "nfshibes"
-        Instagram = "nfshibes"
-        Facebook = ""
-        Telegram = "nfshibes"
-        Medium = ""
-        Gitlab = ""
-        Youtubelegacy = ""
-        Youtubecustom = ""
-        Youtubechannel = ""
-        Tumblr = ""
-        Quora = "nfshibes"
-        Keybase = ""
-        Pinterest = ""
-        Reddit = "nfshibes"
-        Codepen = ""
-        FreeCodeCamp = ""
-        Bitbucket = ""
-        Stackoverflow = ""
-        Weibo = ""
-        Odnoklassniki = ""
-        VK = ""
-        Flickr = ""
-        Xing = ""
-        Snapchat = ""
-        Soundcloud = ""
-        Spotify = ""
-        Bandcamp = ""
-        Paypal = ""
-        Fivehundredpx = ""
-        Mix = ""
-        Goodreads = ""
-        Lastfm = ""
-        Foursquare = ""
-        Hackernews = ""
-        Kickstarter = ""
-        Patreon = ""
-        Steam = ""
-        Twitch = ""
-        Strava = ""
-        Skype = ""
-        Whatsapp = ""
-        Zhihu = ""
-        Douban = ""
-        Angellist = ""
-        Slidershare = ""
-        Jsfiddle = ""
-        Deviantart = ""
-        Behance = ""
-        Dribbble = ""
-        Wordpress = ""
-        Vine = ""
-        Googlescholar = ""
-        Researchgate = ""
-        Mastodon = ""
-        Thingiverse = ""
-        Devto = ""
-        Gitea = ""
-        XMPP = ""
-        Matrix = ""
-        Bilibili = ""
-        Email = "nfshibes@gmail.com"
-        RSS = true
-
-  [languages.ja]
-    weight = 3
     # language code
-    languageCode = "ja"
+    languageCode = "es"
     # language name
-    languageName = "日本"
+    languageName = "Español"
     # whether to include Chinese/Japanese/Korean
-    hasCJKLanguage = true
+    hasCJKLanguage = false
     # default amount of posts in each pages
     paginate = 12
     # [UA-XXXXXXXX-X] google analytics code
@@ -439,8 +241,8 @@ enableEmoji = false
     # copyright description used only for seo schema
     copyright = ""
     # Menu config
-    [languages.ja.menu]
-#      [[languages.ja.menu.main]]
+    [languages.es.menu]
+#      [[languages.es.menu.main]]
 #        identifier = "posts"
 #        pre = ""
 #        post = ""
@@ -448,7 +250,7 @@ enableEmoji = false
 #        url = "/posts/"
 #        title = ""
 #        weight = 1
-#      [[languages.ja.menu.main]]
+#      [[languages.es.menu.main]]
 #        identifier = "tags"
 #        pre = ""
 #        post = ""
@@ -456,7 +258,7 @@ enableEmoji = false
 #        url = "/tags/"
 #        title = ""
 #        weight = 2
-#      [[languages.ja.menu.main]]
+#      [[languages.es.menu.main]]
 #        identifier = "categories"
 #        pre = ""
 #        post = ""
@@ -464,7 +266,7 @@ enableEmoji = false
 #        url = "/categories/"
 #        title = ""
 #        weight = 3
-#      [[languages.ja.menu.main]]
+#      [[languages.es.menu.main]]
 #        identifier = "documentation"
 #        pre = ""
 #        post = ""
@@ -472,14 +274,14 @@ enableEmoji = false
 #        url = "/categories/documentation/"
 #        title = ""
 #        weight = 4
-#      [[languages.ja.menu.main]]
+#      [[languages.es.menu.main]]
 #        identifier = "about"
 #        pre = ""
 #        name = "À propos"
 #        url = "/about/"
 #        title = ""
 #        weight = 5
-#      [[languages.ja.menu.main]]
+#      [[languages.es.menu.main]]
 #        identifier = "github"
 #        pre = "<i class='fab fa-github fa-fw'></i>"
 #        post = ""
@@ -487,13 +289,13 @@ enableEmoji = false
 #        url = "https://github.com/dillonzq/LoveIt"
 #        title = "GitHub"
 #        weight = 6
-    [languages.ja.params]
+    [languages.es.params]
       # site description
-      description = "公式nftコレクション"
+      description = "colección oficial de nft"
       # site keywords
-      keywords = ["nfshibes", "nft", "犬", "柴", "犬"]
+      keywords = ["nfshibes", "nft", "blockchain", "shiba", "inu"]
       # App icon config
-      [languages.ja.params.app]
+      [languages.es.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
         title = "nfshibes"
         # whether to omit favicon resource links
@@ -507,7 +309,7 @@ enableEmoji = false
         # Windows v8-10 tile color
         tileColor = "#da532c"
       # Search config
-      [languages.ja.params.search]
+      [languages.es.params.search]
         enable = false
         # type of search engine ("lunr", "algolia")
         type = "algolia"
@@ -523,16 +325,16 @@ enableEmoji = false
         highlightTag = "em"
         # whether to use the absolute URL based on the baseURL in search index
         absoluteURL = false
-        [languages.ja.params.search.algolia]
-          index = "index.ja"
+        [languages.es.params.search.algolia]
+          index = "index.es"
           appID = "PASDMWALPK"
           searchKey = "b42948e51daaa93df92381c8e2ac0f93"
       # Home page config
-      [languages.ja.params.home]
+      [languages.es.params.home]
         # amount of RSS pages
         rss = 10
         # Home page profile
-        [languages.ja.params.home.profile]
+        [languages.es.params.home.profile]
           enable = true
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = ""
@@ -541,7 +343,7 @@ enableEmoji = false
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page
-          subtitle = "公式nftコレクション@アートバーゼルマイアミ"
+          subtitle = "colección oficial de nft @ art basel miami"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
@@ -549,12 +351,12 @@ enableEmoji = false
           # disclaimer (HTML format is supported)
           disclaimer = ""
         # Home page posts
-        [languages.ja.params.home.posts]
+        [languages.es.params.home.posts]
           enable = false
           # special amount of posts in each home posts page
           paginate = 6
       # Social config in home page
-      [languages.ja.params.social]
+      [languages.es.params.social]
         GitHub = "nfshibes"
         Linkedin = "nfshibes"
         Twitter = "nfshibes"
@@ -621,7 +423,7 @@ enableEmoji = false
         RSS = true
 
   [languages.fr]
-    weight = 4
+    weight = 3
     # language code
     languageCode = "fr"
     # language name
@@ -816,14 +618,14 @@ enableEmoji = false
         Email = "nfshibes@gmail.com"
         RSS = true
 
-  [languages.es]
-    weight = 5
+  [languages.ko]
+    weight = 4
     # language code
-    languageCode = "es"
+    languageCode = "ko"
     # language name
-    languageName = "Español"
+    languageName = "한국인"
     # whether to include Chinese/Japanese/Korean
-    hasCJKLanguage = false
+    hasCJKLanguage = true
     # default amount of posts in each pages
     paginate = 12
     # [UA-XXXXXXXX-X] google analytics code
@@ -831,8 +633,8 @@ enableEmoji = false
     # copyright description used only for seo schema
     copyright = ""
     # Menu config
-    [languages.es.menu]
-#      [[languages.es.menu.main]]
+    [languages.ko.menu]
+#      [[languages.ko.menu.main]]
 #        identifier = "posts"
 #        pre = ""
 #        post = ""
@@ -840,7 +642,7 @@ enableEmoji = false
 #        url = "/posts/"
 #        title = ""
 #        weight = 1
-#      [[languages.es.menu.main]]
+#      [[languages.ko.menu.main]]
 #        identifier = "tags"
 #        pre = ""
 #        post = ""
@@ -848,7 +650,7 @@ enableEmoji = false
 #        url = "/tags/"
 #        title = ""
 #        weight = 2
-#      [[languages.es.menu.main]]
+#      [[languages.ko.menu.main]]
 #        identifier = "categories"
 #        pre = ""
 #        post = ""
@@ -856,7 +658,7 @@ enableEmoji = false
 #        url = "/categories/"
 #        title = ""
 #        weight = 3
-#      [[languages.es.menu.main]]
+#      [[languages.ko.menu.main]]
 #        identifier = "documentation"
 #        pre = ""
 #        post = ""
@@ -864,14 +666,14 @@ enableEmoji = false
 #        url = "/categories/documentation/"
 #        title = ""
 #        weight = 4
-#      [[languages.es.menu.main]]
+#      [[languages.ko.menu.main]]
 #        identifier = "about"
 #        pre = ""
 #        name = "À propos"
 #        url = "/about/"
 #        title = ""
 #        weight = 5
-#      [[languages.es.menu.main]]
+#      [[languages.ko.menu.main]]
 #        identifier = "github"
 #        pre = "<i class='fab fa-github fa-fw'></i>"
 #        post = ""
@@ -879,13 +681,13 @@ enableEmoji = false
 #        url = "https://github.com/dillonzq/LoveIt"
 #        title = "GitHub"
 #        weight = 6
-    [languages.es.params]
+    [languages.ko.params]
       # site description
-      description = "colección oficial de nft"
+      description = "공식 nft 컬렉션"
       # site keywords
-      keywords = ["nfshibes", "nft", "blockchain", "shiba", "inu"]
+      keywords = ["nfshibes", "nft", "블록체인", "시바", "이누"]
       # App icon config
-      [languages.es.params.app]
+      [languages.ko.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
         title = "nfshibes"
         # whether to omit favicon resource links
@@ -899,7 +701,7 @@ enableEmoji = false
         # Windows v8-10 tile color
         tileColor = "#da532c"
       # Search config
-      [languages.es.params.search]
+      [languages.ko.params.search]
         enable = false
         # type of search engine ("lunr", "algolia")
         type = "algolia"
@@ -915,16 +717,16 @@ enableEmoji = false
         highlightTag = "em"
         # whether to use the absolute URL based on the baseURL in search index
         absoluteURL = false
-        [languages.es.params.search.algolia]
-          index = "index.es"
+        [languages.ko.params.search.algolia]
+          index = "index.ko"
           appID = "PASDMWALPK"
           searchKey = "b42948e51daaa93df92381c8e2ac0f93"
       # Home page config
-      [languages.es.params.home]
+      [languages.ko.params.home]
         # amount of RSS pages
         rss = 10
         # Home page profile
-        [languages.es.params.home.profile]
+        [languages.ko.params.home.profile]
           enable = true
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = ""
@@ -933,7 +735,7 @@ enableEmoji = false
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page
-          subtitle = "colección oficial de nft @ art basel miami"
+          subtitle = "nft 공식 컬렉션 @ 아트 바젤 마이애미"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
@@ -941,12 +743,406 @@ enableEmoji = false
           # disclaimer (HTML format is supported)
           disclaimer = ""
         # Home page posts
-        [languages.es.params.home.posts]
+        [languages.ko.params.home.posts]
           enable = false
           # special amount of posts in each home posts page
           paginate = 6
       # Social config in home page
-      [languages.es.params.social]
+      [languages.ko.params.social]
+        GitHub = "nfshibes"
+        Linkedin = "nfshibes"
+        Twitter = "nfshibes"
+        Instagram = "nfshibes"
+        Facebook = ""
+        Telegram = "nfshibes"
+        Medium = ""
+        Gitlab = ""
+        Youtubelegacy = ""
+        Youtubecustom = ""
+        Youtubechannel = ""
+        Tumblr = ""
+        Quora = "nfshibes"
+        Keybase = ""
+        Pinterest = ""
+        Reddit = "nfshibes"
+        Codepen = ""
+        FreeCodeCamp = ""
+        Bitbucket = ""
+        Stackoverflow = ""
+        Weibo = ""
+        Odnoklassniki = ""
+        VK = ""
+        Flickr = ""
+        Xing = ""
+        Snapchat = ""
+        Soundcloud = ""
+        Spotify = ""
+        Bandcamp = ""
+        Paypal = ""
+        Fivehundredpx = ""
+        Mix = ""
+        Goodreads = ""
+        Lastfm = ""
+        Foursquare = ""
+        Hackernews = ""
+        Kickstarter = ""
+        Patreon = ""
+        Steam = ""
+        Twitch = ""
+        Strava = ""
+        Skype = ""
+        Whatsapp = ""
+        Zhihu = ""
+        Douban = ""
+        Angellist = ""
+        Slidershare = ""
+        Jsfiddle = ""
+        Deviantart = ""
+        Behance = ""
+        Dribbble = ""
+        Wordpress = ""
+        Vine = ""
+        Googlescholar = ""
+        Researchgate = ""
+        Mastodon = ""
+        Thingiverse = ""
+        Devto = ""
+        Gitea = ""
+        XMPP = ""
+        Matrix = ""
+        Bilibili = ""
+        Email = "nfshibes@gmail.com"
+        RSS = true
+
+  [languages.ja]
+    weight = 5
+    # language code
+    languageCode = "ja"
+    # language name
+    languageName = "日本"
+    # whether to include Chinese/Japanese/Korean
+    hasCJKLanguage = true
+    # default amount of posts in each pages
+    paginate = 12
+    # [UA-XXXXXXXX-X] google analytics code
+    googleAnalytics = ""
+    # copyright description used only for seo schema
+    copyright = ""
+    # Menu config
+    [languages.ja.menu]
+#      [[languages.ja.menu.main]]
+#        identifier = "posts"
+#        pre = ""
+#        post = ""
+#        name = "Postes"
+#        url = "/posts/"
+#        title = ""
+#        weight = 1
+#      [[languages.ja.menu.main]]
+#        identifier = "tags"
+#        pre = ""
+#        post = ""
+#        name = "Balises"
+#        url = "/tags/"
+#        title = ""
+#        weight = 2
+#      [[languages.ja.menu.main]]
+#        identifier = "categories"
+#        pre = ""
+#        post = ""
+#        name = "Catégories"
+#        url = "/categories/"
+#        title = ""
+#        weight = 3
+#      [[languages.ja.menu.main]]
+#        identifier = "documentation"
+#        pre = ""
+#        post = ""
+#        name = "Docs"
+#        url = "/categories/documentation/"
+#        title = ""
+#        weight = 4
+#      [[languages.ja.menu.main]]
+#        identifier = "about"
+#        pre = ""
+#        name = "À propos"
+#        url = "/about/"
+#        title = ""
+#        weight = 5
+#      [[languages.ja.menu.main]]
+#        identifier = "github"
+#        pre = "<i class='fab fa-github fa-fw'></i>"
+#        post = ""
+#        name = ""
+#        url = "https://github.com/dillonzq/LoveIt"
+#        title = "GitHub"
+#        weight = 6
+    [languages.ja.params]
+      # site description
+      description = "公式nftコレクション"
+      # site keywords
+      keywords = ["nfshibes", "nft", "犬", "柴", "犬"]
+      # App icon config
+      [languages.ja.params.app]
+        # optional site title override for the app when added to an iOS home screen or Android launcher
+        title = "nfshibes"
+        # whether to omit favicon resource links
+        noFavicon = true
+        # modern SVG favicon to use in place of older style .png and .ico files
+        svgFavicon = ""
+        # Android browser theme color
+        themeColor = "#ffffff"
+        # Safari mask icon color
+        iconColor = "#5bbad5"
+        # Windows v8-10 tile color
+        tileColor = "#da532c"
+      # Search config
+      [languages.ja.params.search]
+        enable = false
+        # type of search engine ("lunr", "algolia")
+        type = "algolia"
+        # max index length of the chunked content
+        contentLength = 4000
+        # placeholder of the search bar
+        placeholder = ""
+        # max number of results length
+        maxResultLength = 10
+        # snippet length of the result
+        snippetLength = 30
+        # HTML tag name of the highlight part in results
+        highlightTag = "em"
+        # whether to use the absolute URL based on the baseURL in search index
+        absoluteURL = false
+        [languages.ja.params.search.algolia]
+          index = "index.ja"
+          appID = "PASDMWALPK"
+          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+      # Home page config
+      [languages.ja.params.home]
+        # amount of RSS pages
+        rss = 10
+        # Home page profile
+        [languages.ja.params.home.profile]
+          enable = true
+          # Gravatar Email for preferred avatar in home page
+          gravatarEmail = ""
+          # URL of avatar shown in home page
+          avatarURL = ""
+          # title shown in home page (HTML format is supported)
+          title = ""
+          # subtitle shown in home page
+          subtitle = "公式nftコレクション@アートバーゼルマイアミ"
+          # whether to use typeit animation for subtitle
+          typeit = true
+          # whether to show social links
+          social = true
+          # disclaimer (HTML format is supported)
+          disclaimer = ""
+        # Home page posts
+        [languages.ja.params.home.posts]
+          enable = false
+          # special amount of posts in each home posts page
+          paginate = 6
+      # Social config in home page
+      [languages.ja.params.social]
+        GitHub = "nfshibes"
+        Linkedin = "nfshibes"
+        Twitter = "nfshibes"
+        Instagram = "nfshibes"
+        Facebook = ""
+        Telegram = "nfshibes"
+        Medium = ""
+        Gitlab = ""
+        Youtubelegacy = ""
+        Youtubecustom = ""
+        Youtubechannel = ""
+        Tumblr = ""
+        Quora = "nfshibes"
+        Keybase = ""
+        Pinterest = ""
+        Reddit = "nfshibes"
+        Codepen = ""
+        FreeCodeCamp = ""
+        Bitbucket = ""
+        Stackoverflow = ""
+        Weibo = ""
+        Odnoklassniki = ""
+        VK = ""
+        Flickr = ""
+        Xing = ""
+        Snapchat = ""
+        Soundcloud = ""
+        Spotify = ""
+        Bandcamp = ""
+        Paypal = ""
+        Fivehundredpx = ""
+        Mix = ""
+        Goodreads = ""
+        Lastfm = ""
+        Foursquare = ""
+        Hackernews = ""
+        Kickstarter = ""
+        Patreon = ""
+        Steam = ""
+        Twitch = ""
+        Strava = ""
+        Skype = ""
+        Whatsapp = ""
+        Zhihu = ""
+        Douban = ""
+        Angellist = ""
+        Slidershare = ""
+        Jsfiddle = ""
+        Deviantart = ""
+        Behance = ""
+        Dribbble = ""
+        Wordpress = ""
+        Vine = ""
+        Googlescholar = ""
+        Researchgate = ""
+        Mastodon = ""
+        Thingiverse = ""
+        Devto = ""
+        Gitea = ""
+        XMPP = ""
+        Matrix = ""
+        Bilibili = ""
+        Email = "nfshibes@gmail.com"
+        RSS = true
+
+  [languages.zh-cn]
+    weight = 6
+    # 网站语言, 仅在这里 CN 大写
+    languageCode = "zh-CN"
+    # 语言名称
+    languageName = "简体中文"
+    # 是否包括中日韩文字
+    hasCJKLanguage = true
+    # 默认每页列表显示的文章数目
+    paginate = 12
+    # [UA-XXXXXXXX-X] 谷歌分析代号
+    googleAnalytics = ""
+    # 版权描述，仅仅用于 SEO
+    copyright = ""
+    # 菜单配置
+    [languages.zh-cn.menu]
+#      [[languages.zh-cn.menu.main]]
+#        identifier = "posts"
+#        # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+#        pre = ""
+#        # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+#        post = ""
+#        name = "所有文章"
+#        url = "/posts/"
+#        title = ""
+#        weight = 1
+#      [[languages.zh-cn.menu.main]]
+#        identifier = "tags"
+#        pre = ""
+#        post = ""
+#        name = "标签"
+#        url = "/tags/"
+#        title = ""
+#        weight = 2
+#      [[languages.zh-cn.menu.main]]
+#        identifier = "categories"
+#        pre = ""
+#        post = ""
+#        name = "分类"
+#        url = "/categories/"
+#        title = ""
+#        weight = 3
+#      [[languages.zh-cn.menu.main]]
+#        identifier = "documentation"
+#        pre = ""
+#        name = "文档"
+#        url = "/categories/documentation/"
+#        title = ""
+#        weight = 4
+#      [[languages.zh-cn.menu.main]]
+#        identifier = "about"
+#        pre = ""
+#        post = ""
+#        name = "关于"
+#        url = "/about/"
+#        title = ""
+#        weight = 5
+#      [[languages.zh-cn.menu.main]]
+#        identifier = "github"
+#        pre = "<i class='fab fa-github fa-fw'></i>"
+#        post = ""
+#        name = ""
+#        url = "https://github.com/dillonzq/LoveIt"
+#        title = "GitHub"
+#        weight = 6
+    [languages.zh-cn.params]
+      # 网站描述
+      description = "官方 nft 收藏"
+      # 网站关键词
+      keywords = ["nfshibes", "nft", "区块链", "柴", "犬"]
+      # 应用图标配置
+      [languages.zh-cn.params.app]
+        # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
+        title = "nfshibes"
+        # 是否隐藏网站图标资源链接
+        noFavicon = true
+        # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
+        svgFavicon = ""
+        # Android 浏览器主题色
+        themeColor = "#ffffff"
+        # Safari 图标颜色
+        iconColor = "#5bbad5"
+        # Windows v8-10 磁贴颜色
+        tileColor = "#da532c"
+      # 搜索配置
+      [languages.zh-cn.params.search]
+        enable = false
+        # 搜索引擎的类型 ("lunr", "algolia")
+        type = "algolia"
+        # 文章内容最长索引长度
+        contentLength = 4000
+        # 搜索框的占位提示语
+        placeholder = ""
+        # 最大结果数目
+        maxResultLength = 10
+        # 结果内容片段长度
+        snippetLength = 50
+        # 搜索结果中高亮部分的 HTML 标签
+        highlightTag = "em"
+        # 是否在搜索索引中使用基于 baseURL 的绝对路径
+        absoluteURL = false
+        [languages.zh-cn.params.search.algolia]
+          index = "index.zh-cn"
+          appID = "PASDMWALPK"
+          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+      # 主页信息设置
+      [languages.zh-cn.params.home]
+        # RSS 文章数目
+        rss = 10
+        # 主页个人信息
+        [languages.zh-cn.params.home.profile]
+          enable = true
+          # Gravatar 邮箱，用于优先在主页显示的头像
+          gravatarEmail = ""
+          # 主页显示头像的 URL
+          avatarURL = ""
+          # 主页显示的网站标题 (支持 HTML 格式)
+          title = ""
+          # 主页显示的网站副标题
+          subtitle = "官方 nft 收藏@迈阿密巴塞尔艺术展"
+          # 是否为副标题显示打字机动画
+          typeit = true
+          # 是否显示社交账号
+          social = true
+          # 免责声明 (支持 HTML 格式)
+          disclaimer = ""
+        # 主页文章列表
+        [languages.zh-cn.params.home.posts]
+          enable = false
+          # 主页每页显示文章数量
+          paginate = 6
+      # 主页的社交信息设置
+      [languages.zh-cn.params.social]
         GitHub = "nfshibes"
         Linkedin = "nfshibes"
         Twitter = "nfshibes"
