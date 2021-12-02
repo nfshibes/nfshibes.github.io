@@ -151,7 +151,7 @@ enableEmoji = false
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
-          disclaimer = ""
+          disclaimer = "<a href=\"https://opensea.io/collection/nfshibes\">view collection</a>"
         # Home page posts
         [languages.en.params.home.posts]
           enable = false
@@ -349,7 +349,7 @@ enableEmoji = false
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
-          disclaimer = ""
+          disclaimer = "<a href=\"https://opensea.io/collection/nfshibes\">ver colección</a>"
         # Home page posts
         [languages.es.params.home.posts]
           enable = false
@@ -545,7 +545,7 @@ enableEmoji = false
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
-          disclaimer = ""
+          disclaimer = "<a href=\"https://opensea.io/collection/nfshibes\">voir la collection</a>"
         # Home page posts
         [languages.fr.params.home.posts]
           enable = false
@@ -741,7 +741,7 @@ enableEmoji = false
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
-          disclaimer = ""
+          disclaimer = "<a href=\"https://opensea.io/collection/nfshibes\">컬렉션 보기</a>"
         # Home page posts
         [languages.ko.params.home.posts]
           enable = false
@@ -937,7 +937,7 @@ enableEmoji = false
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
-          disclaimer = ""
+          disclaimer = "<a href=\"https://opensea.io/collection/nfshibes\">コレクションを見る</a>"
         # Home page posts
         [languages.ja.params.home.posts]
           enable = false
@@ -1135,7 +1135,7 @@ enableEmoji = false
           # 是否显示社交账号
           social = true
           # 免责声明 (支持 HTML 格式)
-          disclaimer = ""
+          disclaimer = "<a href=\"https://opensea.io/collection/nfshibes\">查看集合</a>"
         # 主页文章列表
         [languages.zh-cn.params.home.posts]
           enable = false
