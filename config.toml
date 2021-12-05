@@ -93,7 +93,7 @@ enableEmoji = false
 #        weight = 6
     [languages.en.params]
       # site description
-      description = "official nft collection"
+      description = "shiba nft collection"
       # site keywords
       keywords = ["nfshibes", "nft", "blockchain", "shiba", "inu"]
       # App icon config
@@ -145,7 +145,7 @@ enableEmoji = false
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page
-          subtitle = "official nft collection @ art basel miami"
+          subtitle = "shiba nft collection"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
@@ -291,7 +291,7 @@ enableEmoji = false
 #        weight = 6
     [languages.es.params]
       # site description
-      description = "colección oficial de nft"
+      description = "colección shiba nft"
       # site keywords
       keywords = ["nfshibes", "nft", "blockchain", "shiba", "inu"]
       # App icon config
@@ -343,7 +343,7 @@ enableEmoji = false
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page
-          subtitle = "colección oficial de nft @ art basel miami"
+          subtitle = "colección shiba nft"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
@@ -487,7 +487,7 @@ enableEmoji = false
 #        weight = 6
     [languages.fr.params]
       # site description
-      description = "collection officielle nft"
+      description = "collection nft shiba"
       # site keywords
       keywords = ["nfshibes", "nft", "blockchain", "shiba", "inu"]
       # App icon config
@@ -539,7 +539,7 @@ enableEmoji = false
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page
-          subtitle = "collection officielle nft @ art basel miami"
+          subtitle = "collection nft shiba"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
@@ -683,7 +683,7 @@ enableEmoji = false
 #        weight = 6
     [languages.ko.params]
       # site description
-      description = "공식 nft 컬렉션"
+      description = "시바 nft 컬렉션"
       # site keywords
       keywords = ["nfshibes", "nft", "블록체인", "시바", "이누"]
       # App icon config
@@ -735,7 +735,7 @@ enableEmoji = false
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page
-          subtitle = "nft 공식 컬렉션 @ 아트 바젤 마이애미"
+          subtitle = "시바 nft 컬렉션"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
@@ -879,7 +879,7 @@ enableEmoji = false
 #        weight = 6
     [languages.ja.params]
       # site description
-      description = "公式nftコレクション"
+      description = "shibanftコレクション"
       # site keywords
       keywords = ["nfshibes", "nft", "犬", "柴", "犬"]
       # App icon config
@@ -931,7 +931,7 @@ enableEmoji = false
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page
-          subtitle = "公式nftコレクション@アートバーゼルマイアミ"
+          subtitle = "shibanftコレクション"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
@@ -1077,7 +1077,7 @@ enableEmoji = false
 #        weight = 6
     [languages.zh-cn.params]
       # 网站描述
-      description = "官方 nft 收藏"
+      description = "shiba nft 集合"
       # 网站关键词
       keywords = ["nfshibes", "nft", "区块链", "柴", "犬"]
       # 应用图标配置
@@ -1129,7 +1129,7 @@ enableEmoji = false
           # 主页显示的网站标题 (支持 HTML 格式)
           title = ""
           # 主页显示的网站副标题
-          subtitle = "官方 nft 收藏@迈阿密巴塞尔艺术展"
+          subtitle = "shiba nft 集合"
           # 是否为副标题显示打字机动画
           typeit = true
           # 是否显示社交账号
