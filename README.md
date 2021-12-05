@@ -1,6 +1,6 @@
 # nfshibes
 
-official nft collection
+shiba nft collection
 
 [nfshibes.com](http://nfshibes.com)
 
