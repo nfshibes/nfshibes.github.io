@@ -160,7 +160,7 @@ enableEmoji = false
       # Social config in home page
       [languages.en.params.social]
         GitHub = "nfshibes"
-        Linkedin = "nfshibes"
+        Linkedin = ""
         Twitter = "nfshibes"
         Instagram = "nfshibes"
         Facebook = ""
@@ -171,10 +171,10 @@ enableEmoji = false
         Youtubecustom = ""
         Youtubechannel = ""
         Tumblr = ""
-        Quora = "nfshibes"
+        Quora = ""
         Keybase = ""
         Pinterest = ""
-        Reddit = "nfshibes"
+        Reddit = ""
         Codepen = ""
         FreeCodeCamp = ""
         Bitbucket = ""
@@ -221,7 +221,7 @@ enableEmoji = false
         Matrix = ""
         Bilibili = ""
         Email = "nfshibes@gmail.com"
-        RSS = true
+        RSS = false
 #        [languages.en.params.social.Mastodon]
 #          id = "@xxxx"
 #          prefix = "https://mastodon.technology/"
@@ -358,7 +358,7 @@ enableEmoji = false
       # Social config in home page
       [languages.es.params.social]
         GitHub = "nfshibes"
-        Linkedin = "nfshibes"
+        Linkedin = ""
         Twitter = "nfshibes"
         Instagram = "nfshibes"
         Facebook = ""
@@ -369,10 +369,10 @@ enableEmoji = false
         Youtubecustom = ""
         Youtubechannel = ""
         Tumblr = ""
-        Quora = "nfshibes"
+        Quora = ""
         Keybase = ""
         Pinterest = ""
-        Reddit = "nfshibes"
+        Reddit = ""
         Codepen = ""
         FreeCodeCamp = ""
         Bitbucket = ""
@@ -420,7 +420,7 @@ enableEmoji = false
         Matrix = ""
         Bilibili = ""
         Email = "nfshibes@gmail.com"
-        RSS = true
+        RSS = false
 
   [languages.fr]
     weight = 3
@@ -554,7 +554,7 @@ enableEmoji = false
       # Social config in home page
       [languages.fr.params.social]
         GitHub = "nfshibes"
-        Linkedin = "nfshibes"
+        Linkedin = ""
         Twitter = "nfshibes"
         Instagram = "nfshibes"
         Facebook = ""
@@ -565,10 +565,10 @@ enableEmoji = false
         Youtubecustom = ""
         Youtubechannel = ""
         Tumblr = ""
-        Quora = "nfshibes"
+        Quora = ""
         Keybase = ""
         Pinterest = ""
-        Reddit = "nfshibes"
+        Reddit = ""
         Codepen = ""
         FreeCodeCamp = ""
         Bitbucket = ""
@@ -616,7 +616,7 @@ enableEmoji = false
         Matrix = ""
         Bilibili = ""
         Email = "nfshibes@gmail.com"
-        RSS = true
+        RSS = false
 
   [languages.ko]
     weight = 4
@@ -750,7 +750,7 @@ enableEmoji = false
       # Social config in home page
       [languages.ko.params.social]
         GitHub = "nfshibes"
-        Linkedin = "nfshibes"
+        Linkedin = ""
         Twitter = "nfshibes"
         Instagram = "nfshibes"
         Facebook = ""
@@ -761,10 +761,10 @@ enableEmoji = false
         Youtubecustom = ""
         Youtubechannel = ""
         Tumblr = ""
-        Quora = "nfshibes"
+        Quora = ""
         Keybase = ""
         Pinterest = ""
-        Reddit = "nfshibes"
+        Reddit = ""
         Codepen = ""
         FreeCodeCamp = ""
         Bitbucket = ""
@@ -812,7 +812,7 @@ enableEmoji = false
         Matrix = ""
         Bilibili = ""
         Email = "nfshibes@gmail.com"
-        RSS = true
+        RSS = false
 
   [languages.ja]
     weight = 5
@@ -946,7 +946,7 @@ enableEmoji = false
       # Social config in home page
       [languages.ja.params.social]
         GitHub = "nfshibes"
-        Linkedin = "nfshibes"
+        Linkedin = ""
         Twitter = "nfshibes"
         Instagram = "nfshibes"
         Facebook = ""
@@ -957,10 +957,10 @@ enableEmoji = false
         Youtubecustom = ""
         Youtubechannel = ""
         Tumblr = ""
-        Quora = "nfshibes"
+        Quora = ""
         Keybase = ""
         Pinterest = ""
-        Reddit = "nfshibes"
+        Reddit = ""
         Codepen = ""
         FreeCodeCamp = ""
         Bitbucket = ""
@@ -1008,7 +1008,7 @@ enableEmoji = false
         Matrix = ""
         Bilibili = ""
         Email = "nfshibes@gmail.com"
-        RSS = true
+        RSS = false
 
   [languages.zh-cn]
     weight = 6
@@ -1144,7 +1144,7 @@ enableEmoji = false
       # 主页的社交信息设置
       [languages.zh-cn.params.social]
         GitHub = "nfshibes"
-        Linkedin = "nfshibes"
+        Linkedin = ""
         Twitter = "nfshibes"
         Instagram = "nfshibes"
         Facebook = ""
@@ -1155,10 +1155,10 @@ enableEmoji = false
         Youtubecustom = ""
         Youtubechannel = ""
         Tumblr = ""
-        Quora = "nfshibes"
+        Quora = ""
         Keybase = ""
         Pinterest = ""
-        Reddit = "nfshibes"
+        Reddit = ""
         Codepen = ""
         FreeCodeCamp = ""
         Bitbucket = ""
@@ -1206,7 +1206,7 @@ enableEmoji = false
         Matrix = ""
         Bilibili = ""
         Email = "nfshibes@gmail.com"
-        RSS = true
+        RSS = false
 
 [params]
   # LoveIt theme version
