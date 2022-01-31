@@ -152,6 +152,8 @@ enableEmoji = false
           social = true
           # announcement news
           announcement = "2/2/2022<br/>12:00 AM UTC"
+          # floor price
+          floor_price = "0.0045 ETH"
           # disclaimer (HTML format is supported)
           disclaimer = "<a href=\"https://opensea.io/collection/nfshibes\">- view collection -</a>"
         # Home page posts

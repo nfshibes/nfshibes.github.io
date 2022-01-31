@@ -93,6 +93,12 @@
         </h4>
     {{- end -}}
 
+    {{- with $profile.floor_price -}}
+        <h5 class="home-price">
+            {{- . | safeHTML -}}
+        </h5>
+    {{- end -}}
+
     {{- with $profile.disclaimer -}}
         <h3 class="home-disclaimer">
             {{- . | safeHTML -}}
