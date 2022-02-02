@@ -151,11 +151,11 @@ enableEmoji = false
           # whether to show social links
           social = true
           # announcement news
-          announcement = "2/2/2022<br/>12:00 AM UTC"
+          announcement = ""
           # floor price
-          floor_price = "0.0045 ETH"
+          floor_price = ""
           # disclaimer (HTML format is supported)
-          disclaimer = "<a href=\"https://opensea.io/collection/nfshibes\">- view collection -</a>"
+          disclaimer = "coming soon!"
         # Home page posts
         [languages.en.params.home.posts]
           enable = false
@@ -168,7 +168,7 @@ enableEmoji = false
         Twitter = "nfshibes"
         Instagram = "nfshibes"
         Facebook = ""
-        Telegram = "nfshibes"
+        Telegram = ""
         Medium = "nfshibes"
         Gitlab = ""
         Youtubelegacy = ""
@@ -353,9 +353,9 @@ enableEmoji = false
           # whether to show social links
           social = true
           # announcement news
-          announcement = "2/2/2022<br/>12:00 AM UTC"
+          announcement = ""
           # disclaimer (HTML format is supported)
-          disclaimer = "<a href=\"https://opensea.io/collection/nfshibes\">ver colección</a>"
+          disclaimer = "coming soon!"
         # Home page posts
         [languages.es.params.home.posts]
           enable = false
@@ -368,7 +368,7 @@ enableEmoji = false
         Twitter = "nfshibes"
         Instagram = "nfshibes"
         Facebook = ""
-        Telegram = "nfshibes"
+        Telegram = ""
         Medium = "nfshibes"
         Gitlab = ""
         Youtubelegacy = ""
@@ -551,9 +551,9 @@ enableEmoji = false
           # whether to show social links
           social = true
           # announcement news
-          announcement = "2/2/2022<br/>12:00 AM UTC"
+          announcement = ""
           # disclaimer (HTML format is supported)
-          disclaimer = "<a href=\"https://opensea.io/collection/nfshibes\">voir la collection</a>"
+          disclaimer = "coming soon!"
         # Home page posts
         [languages.fr.params.home.posts]
           enable = false
@@ -566,7 +566,7 @@ enableEmoji = false
         Twitter = "nfshibes"
         Instagram = "nfshibes"
         Facebook = ""
-        Telegram = "nfshibes"
+        Telegram = ""
         Medium = "nfshibes"
         Gitlab = ""
         Youtubelegacy = ""
@@ -749,9 +749,9 @@ enableEmoji = false
           # whether to show social links
           social = true
           # announcement news
-          announcement = "2022년 2월 2일<br/>오전 12:00 UTC"
+          announcement = ""
           # disclaimer (HTML format is supported)
-          disclaimer = "<a href=\"https://opensea.io/collection/nfshibes\">컬렉션 보기</a>"
+          disclaimer = "coming soon!"
         # Home page posts
         [languages.ko.params.home.posts]
           enable = false
@@ -764,7 +764,7 @@ enableEmoji = false
         Twitter = "nfshibes"
         Instagram = "nfshibes"
         Facebook = ""
-        Telegram = "nfshibes"
+        Telegram = ""
         Medium = "nfshibes"
         Gitlab = ""
         Youtubelegacy = ""
@@ -947,9 +947,9 @@ enableEmoji = false
           # whether to show social links
           social = true
           # announcement news
-          announcement = "2022年2月2日<br/>UTC午前12:00"
+          announcement = ""
           # disclaimer (HTML format is supported)
-          disclaimer = "<a href=\"https://opensea.io/collection/nfshibes\">コレクションを見る</a>"
+          disclaimer = "coming soon!"
         # Home page posts
         [languages.ja.params.home.posts]
           enable = false
@@ -962,7 +962,7 @@ enableEmoji = false
         Twitter = "nfshibes"
         Instagram = "nfshibes"
         Facebook = ""
-        Telegram = "nfshibes"
+        Telegram = ""
         Medium = "nfshibes"
         Gitlab = ""
         Youtubelegacy = ""
@@ -1147,9 +1147,9 @@ enableEmoji = false
           # 是否显示社交账号
           social = true
           # announcement news
-          announcement = "2/2/2022<br/>世界標準時間上午 12:00"
+          announcement = ""
           # 免责声明 (支持 HTML 格式)
-          disclaimer = "<a href=\"https://opensea.io/collection/nfshibes\">查看集合</a>"
+          disclaimer = "coming soon!"
         # 主页文章列表
         [languages.zh-cn.params.home.posts]
           enable = false
@@ -1162,7 +1162,7 @@ enableEmoji = false
         Twitter = "nfshibes"
         Instagram = "nfshibes"
         Facebook = ""
-        Telegram = "nfshibes"
+        Telegram = ""
         Medium = "nfshibes"
         Gitlab = ""
         Youtubelegacy = ""
